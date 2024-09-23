@@ -26,150 +26,140 @@ header {
 }
 
 
-    header {
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-    }
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
 
-    .menu-righ {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        margin: 15px;
-    }
+.menu-righ {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 15px;
+}
 
-    #txtBusca {
-        float: left;
-        background-color: white;
-        margin: 10px;
-        padding-left: 10PX;
-        align-items: center;
-        font-size: 15px;
-        border-radius: 40px;
-        height: 25px;
-        width: 260px;
-        box-shadow: 0 0 0 0;
-        border: 0 none;
-        outline: 0;
-        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    }
+#txtBusca {
+    float: left;
+    background-color: white;
+    margin: 10px;
+    padding-left: 10PX;
+    align-items: center;
+    font-size: 15px;
+    border-radius: 40px;
+    height: 25px;
+    width: 260px;
+    box-shadow: 0 0 0 0;
+    border: 0 none;
+    outline: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
 
-    #btnBusca {
-        width: 30px;
-        margin-right: 20px;
+#btnBusca {
+    width: 30px;
+    margin-right: 20px;
 
-    }
-
-
-    .box {
-        display: flex;
-        position: absolute;
-        justify-content: center;
-        border-radius: 4ch;
-        align-items: center;
-    }
-
-    .login-container {
-        background: #fff;
-        padding: 20px;
-        border-radius: 8px;
-        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-        width: 300px;
-    }
-
-    h2 {
-        margin-bottom: 20px;
-        font-size: 24px;
-        text-align: center;
-    }
-
-    .input-group {
-        margin-bottom: 15px;
-    }
-
-    .input-group label {
-        display: block;
-        font-size: 14px;
-        margin-bottom: 5px;
-    }
-
-    .input-group input {
-        width: 100%;
-        padding: 10px;
-        border: 1px solid #ddd;
-        border-radius: 4px;
-        font-size: 14px;
-    }
-
-    button {
-        width: 100%;
-        padding: 10px;
-        background-color: #007bff;
-        border: none;
-        border-radius: 4px;
-        color: #fff;
-        font-size: 16px;
-        cursor: pointer;
-    }
-
-    button:hover {
-        background-color: #0056b3;
-    }
-
-    .forgot-password {
-        text-align: center;
-        margin-top: 10px;
-    }
-
-    .forgot-password a {
-        color: #007bff;
-        text-decoration: none;
-    }
-
-    .forgot-password a:hover {
-        text-decoration: underline;
-    }
+}
 
 
-    body{
-        background-color: #2B2A29;
-        padding: 0;
-        margin: 0;
-        width: 100;
-        min-height: 100vh;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-     
-    
-    .box {
-        position:absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        background-color: white;
-        border-radius: 25px;
-        width: 400px;
-        padding: 40px;
-    
-    }
-    
-    .box h2 {
-        font-size: 40px;
-        text-align: center;
-    }
-    
-    .input-box {
-        display: flex;
-        align-items: center;
-        flex-direction: column;
-        }
-    
-    #login-container {
-        border-radius: 5ch; 
-    
-    
-    
-    }
+.box {
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    border-radius: 4ch;
+    align-items: center;
+}
+
+.login-container {
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 300px;
+}
+
+h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    text-align: center;
+}
+
+.input-group {
+    margin-bottom: 15px;
+}
+
+.input-group label {
+    display: block;
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+
+.input-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    border: none;
+    border-radius: 4px;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.forgot-password {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.forgot-password a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.forgot-password a:hover {
+    text-decoration: underline;
+}
+
+
+
+
+.box {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    border-radius: 25px;
+    width: 400px;
+    padding: 40px;
+
+}
+
+.box h2 {
+    font-size: 40px;
+    text-align: center;
+}
+
+.input-box {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+#login-container {
+    border-radius: 5ch;
+
+
+
+}
