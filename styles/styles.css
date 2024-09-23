@@ -15,9 +15,8 @@ body {
 
 }
 
-
 header {
-    background-color: blue;
+    background-color: #2B2A29;
 
     a:hover {
         color: #0056b3;
@@ -127,6 +126,7 @@ button:hover {
     text-decoration: none;
 }
 
+
 .forgot-password a:hover {
     text-decoration: underline;
 }
@@ -163,3 +163,38 @@ button:hover {
 
 
 }
+
+    .forgot-password a:hover {
+        text-decoration: underline;
+    }
+    
+    .box {
+        position:absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        background-color: white;
+        border-radius: 25px;
+        width: 400px;
+        padding: 40px;
+    
+    }
+    
+    .box h2 {
+        font-size: 40px;
+        text-align: center;
+    }
+    
+    .input-box {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        }
+    
+    #login-container {
+        border-radius: 5ch; 
+    
+    
+    
+    }
+
