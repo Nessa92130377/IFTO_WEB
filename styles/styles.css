@@ -75,12 +75,13 @@ header {
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     width: 300px;
+
 }
 
 h2 {
     margin-bottom: 20px;
     font-size: 24px;
-    text-align: center;
+    text-align:center;
 }
 
 .input-group {
@@ -117,12 +118,12 @@ button:hover {
 }
 
 .forgot-password {
-    text-align: center;
+    text-align:center;
     margin-top: 10px;
 }
 
 .forgot-password a {
-    color: #007bff;
+    color:#007bff;
     text-decoration: none;
 }
 
@@ -134,20 +135,29 @@ button:hover {
 
 
 
-.box {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    background-color: white;
-    border-radius: 25px;
-    width: 400px;
-    padding: 40px;
+.input {
+    display: flex;
+    align-items:last baseline;
+    flex-direction: column;
+}
+
+#login-container {
+    border-radius: 5ch;
+
+
 
 }
 
-.box h2 {
-    font-size: 40px;
+.forgot-password a:hover {
+    text-decoration: underline;
+}
+
+
+
+
+
+.login-container h2 {
+    font-size: 20px;
     text-align: center;
 }
 
@@ -163,38 +173,3 @@ button:hover {
 
 
 }
-
-    .forgot-password a:hover {
-        text-decoration: underline;
-    }
-    
-    .box {
-        position:absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        background-color: white;
-        border-radius: 25px;
-        width: 400px;
-        padding: 40px;
-    
-    }
-    
-    .box h2 {
-        font-size: 40px;
-        text-align: center;
-    }
-    
-    .input-box {
-        display: flex;
-        align-items: center;
-        flex-direction: column;
-        }
-    
-    #login-container {
-        border-radius: 5ch; 
-    
-    
-    
-    }
-
