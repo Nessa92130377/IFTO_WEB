@@ -253,16 +253,6 @@ H1{ color: white;
     justify-content: center;
 }
 
-
-#main-group{
-    display: flex;
-    flex-direction: row
-    align-items: center;
-    justify-content: space-around;
-    top: 30px;
-    bottom: 30px;
-}
-
 .main-left{
     display: flex;
     flex-direction: column;
