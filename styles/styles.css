@@ -173,3 +173,11 @@ button:hover {
 
 
 }
+
+#AMBIENTES{
+    display:inline-block;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: ;
+}
+
