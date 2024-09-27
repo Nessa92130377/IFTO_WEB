@@ -36,7 +36,6 @@ header {
     align-items: center;
     justify-content: center;
     margin: 15px;
-    position:fixed;
     left: 50;
 }
 
@@ -212,6 +211,41 @@ button:hover {
     font-weight: bold;
     font-size: 20px;
     margin: 18px;
+}
 
-    
+H1{ color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 30px;
+    margin: 18px;
+    align-items: center;
+}
+
+.main-titulo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+#main-group{
+    display: flex;
+    flex-direction: row
+    align-items: center;
+    justify-content: space-around;
+    top: 30px;
+    bottom: 30px;
+}
+
+.main-left{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main-rigth{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
