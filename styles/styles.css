@@ -71,11 +71,16 @@ header {
 }
 
 .login-container {
-    background: #fff;
+    
+    background-color: rgba(255, 255, 255, 0);
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    width: 300px;
+    width: 500px;
+    margin-left: 103ch;
+    margin-top: 10ch;
+
+
 
 }
 
@@ -175,6 +180,26 @@ button:hover {
 
 }
 
+.row {
+    position: absolute;
+    top: 23%;
+    left: 23%;
+    z-index: 2;
+    
+
+}
+
+.fundo {
+    position: absolute;
+    top: 9%;
+    left: 12%;
+    z-index: 1;
+    width: 100%;
+    height: auto;
+
+}
+
+
 #AMBIENTES{
     display:inline-block;
     flex-direction: row;
@@ -212,3 +237,31 @@ button:hover {
     font-size: 20px;
     margin: 18px;
 }
+
+H1{ color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 30px;
+    margin: 18px;
+    align-items: center;
+}
+
+.main-titulo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-left{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main-rigth{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
