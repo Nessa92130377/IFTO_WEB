@@ -70,11 +70,16 @@ header {
 }
 
 .login-container {
-    background: #fff;
+    
+    background-color: rgba(255, 255, 255, 0);
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    width: 300px;
+    width: 500px;
+    margin-left: 103ch;
+    margin-top: 10ch;
+
+
 
 }
 
@@ -171,5 +176,23 @@ button:hover {
     border-radius: 5ch;
 
 
+
+}
+.row {
+    position: absolute;
+    top: 23%;
+    left: 23%;
+    z-index: 2;
+    
+
+}
+
+.fundo {
+    position: absolute;
+    top: 9%;
+    left: 12%;
+    z-index: 1;
+    width: 100%;
+    height: auto;
 
 }
