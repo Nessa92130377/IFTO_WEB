@@ -71,7 +71,7 @@ header {
 }
 
 .login-container {
-    
+
     background-color: rgba(255, 255, 255, 0);
     padding: 20px;
     border-radius: 8px;
@@ -87,7 +87,7 @@ header {
 h2 {
     margin-bottom: 20px;
     font-size: 24px;
-    text-align:center;
+    text-align: center;
 }
 
 .input-group {
@@ -124,12 +124,12 @@ button:hover {
 }
 
 .forgot-password {
-    text-align:center;
+    text-align: center;
     margin-top: 10px;
 }
 
 .forgot-password a {
-    color:#007bff;
+    color: #007bff;
     text-decoration: none;
 }
 
@@ -143,7 +143,7 @@ button:hover {
 
 .input {
     display: flex;
-    align-items:last baseline;
+    align-items: last baseline;
     flex-direction: column;
 }
 
@@ -185,7 +185,7 @@ button:hover {
     top: 23%;
     left: 23%;
     z-index: 2;
-    
+
 
 }
 
@@ -200,8 +200,8 @@ button:hover {
 }
 
 
-#AMBIENTES{
-    display:inline-block;
+#AMBIENTES {
+    display: inline-block;
     flex-direction: row;
     justify-content: space-around;
     color: white;
@@ -213,8 +213,8 @@ button:hover {
 
 }
 
-#CURSOS{
-    display:inline-block;
+#CURSOS {
+    display: inline-block;
     flex-direction: row;
     justify-content: space-around;
     color: white;
@@ -226,8 +226,8 @@ button:hover {
 
 }
 
-#SERVIDORES{
-    display:inline-block;
+#SERVIDORES {
+    display: inline-block;
     flex-direction: row;
     justify-content: space-around;
     color: white;
@@ -238,7 +238,8 @@ button:hover {
     margin: 18px;
 }
 
-H1{ color: white;
+H1 {
+    color: white;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     text-decoration: none;
     font-weight: bold;
@@ -247,23 +248,32 @@ H1{ color: white;
     align-items: center;
 }
 
-.main-titulo{
+.main-titulo {
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-.main-left{
+.main-left {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-.main-rigth{
+.main-rigth {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
-  .input-group label{
+
+.input-group label {
     color: white;
-  }
+}
+
+.img-subtitulo {
+    background-color: #043d7a;
+    color: white;
+    width: 500px;
+    height: 25px;
+
+}
