@@ -72,12 +72,13 @@ header {
 
 .login-container {
 
-    background-color: rgba(255, 255, 255, 0);
-    padding: 20px;
-    border-radius: 8px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 6px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     width: 500px;
-    margin-left: 103ch;
+    margin-left: 95ch;
     margin-top: 10ch;
 
 
@@ -85,6 +86,7 @@ header {
 }
 
 h2 {
+    color: #FFF;
     margin-bottom: 20px;
     font-size: 24px;
     text-align: center;
@@ -109,14 +111,13 @@ h2 {
 }
 
 button {
-    width: 100%;
-    padding: 10px;
-    background-color: #007bff;
-    border: none;
-    border-radius: 4px;
-    color: #fff;
-    font-size: 16px;
-    cursor: pointer;
+        background-color: #4CAF50;
+        color: #FFF;
+        padding: 10px 25px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+
 }
 
 button:hover {
@@ -158,10 +159,6 @@ button:hover {
     text-decoration: underline;
 }
 
-
-
-
-
 .login-container h2 {
     font-size: 20px;
     text-align: center;
@@ -175,18 +172,16 @@ button:hover {
 
 #login-container {
     border-radius: 5ch;
-
-
-
 }
 
+
 .row {
-    position: absolute;
-    top: 23%;
-    left: 23%;
-    z-index: 2;
-
-
+    background-color: #007bff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 600px;
+    height: 600px;
 }
 
 .fundo {
@@ -198,7 +193,6 @@ button:hover {
     height: auto;
 
 }
-
 
 #AMBIENTES {
     display: inline-block;
@@ -276,4 +270,12 @@ H1 {
     width: 500px;
     height: 25px;
 
+}
+
+
+#main-continer {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: row;
 }
