@@ -71,13 +71,14 @@ header {
 }
 
 .login-container {
-    
-    background-color: rgba(255, 255, 255, 0);
-    padding: 20px;
-    border-radius: 8px;
+
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 6px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     width: 500px;
-    margin-left: 103ch;
+    margin-left: 95ch;
     margin-top: 10ch;
 
 
@@ -85,9 +86,10 @@ header {
 }
 
 h2 {
+    color: #FFF;
     margin-bottom: 20px;
     font-size: 24px;
-    text-align:center;
+    text-align: center;
 }
 
 .input-group {
@@ -109,14 +111,13 @@ h2 {
 }
 
 button {
-    width: 100%;
-    padding: 10px;
-    background-color: #007bff;
-    border: none;
-    border-radius: 4px;
-    color: #fff;
-    font-size: 16px;
-    cursor: pointer;
+        background-color: #4CAF50;
+        color: #FFF;
+        padding: 10px 25px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+
 }
 
 button:hover {
@@ -124,12 +125,12 @@ button:hover {
 }
 
 .forgot-password {
-    text-align:center;
+    text-align: center;
     margin-top: 10px;
 }
 
 .forgot-password a {
-    color:#007bff;
+    color: #007bff;
     text-decoration: none;
 }
 
@@ -143,7 +144,7 @@ button:hover {
 
 .input {
     display: flex;
-    align-items:last baseline;
+    align-items: last baseline;
     flex-direction: column;
 }
 
@@ -157,10 +158,6 @@ button:hover {
 .forgot-password a:hover {
     text-decoration: underline;
 }
-
-
-
-
 
 .login-container h2 {
     font-size: 20px;
@@ -175,18 +172,16 @@ button:hover {
 
 #login-container {
     border-radius: 5ch;
-
-
-
 }
 
-.row {
-    position: absolute;
-    top: 23%;
-    left: 23%;
-    z-index: 2;
-    
 
+.row {
+    background-color: #007bff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 600px;
+    height: 600px;
 }
 
 .fundo {
@@ -199,9 +194,8 @@ button:hover {
 
 }
 
-
-#AMBIENTES{
-    display:inline-block;
+#AMBIENTES {
+    display: inline-block;
     flex-direction: row;
     justify-content: space-around;
     color: white;
@@ -213,8 +207,8 @@ button:hover {
 
 }
 
-#CURSOS{
-    display:inline-block;
+#CURSOS {
+    display: inline-block;
     flex-direction: row;
     justify-content: space-around;
     color: white;
@@ -226,8 +220,8 @@ button:hover {
 
 }
 
-#SERVIDORES{
-    display:inline-block;
+#SERVIDORES {
+    display: inline-block;
     flex-direction: row;
     justify-content: space-around;
     color: white;
@@ -238,7 +232,8 @@ button:hover {
     margin: 18px;
 }
 
-H1{ color: white;
+H1 {
+    color: white;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     text-decoration: none;
     font-weight: bold;
@@ -247,28 +242,40 @@ H1{ color: white;
     align-items: center;
 }
 
-.main-titulo{
+.main-titulo {
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-.main-left{
+.main-left {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-.main-rigth{
+.main-rigth {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-.img-subtitulo{
+.input-group label {
+    color: white;
+}
+
+.img-subtitulo {
     background-color: #043d7a;
     color: white;
     width: 500px;
     height: 25px;
-    
+
+}
+
+
+#main-continer {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: row;
 }
