@@ -1,4 +1,3 @@
->
 <!DOCTYPE html>
 <html lang="en">
 
@@ -6,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles/styles.css">
-    <title>cadastro</title>
+    <title>login IFTO</title>
 </head>
 
 <body>
@@ -18,14 +17,17 @@
             <div class="menu">
                 <a href="#">AMBIENTES</a>
                 <a href="#">CURSOS</a>
-                <a href="#">SERVIDORES</a>
+                 <a href="#">SERVIDORES</a>
             </div>
             <div id="divBusca">
                 <input type="text" id="txtBusca" placeholder="Buscar..." />
             </div>
-            <img src="img/lupa.png" id="btnBusca" alt="Buscar" />
+            <div>
+                <img src="img/lupa.png" id="btnBusca" alt="Buscar" />
+            </div>
         </div>
     </header>
+
     <main id="main-container">
         <div class="login-container">
 
@@ -33,27 +35,32 @@
 
             <form action="#" method="post">
                 <div class="input-group">
-                    <label for="username">Nome Completo</label>
-                    <input type="text" id="txtUsuario" name="Nome Completo" required />
+
+                    <label for="username">Nome Completo:</label>
+                    <input type="text" id="Usúario" name="Nome Completo" placeholder="Ex: Davi Pinheiro Sieg..."
+                        required />
                 </div>
                 <div class="input-group">
-                    <label for="Gênero">Gênero</label>
-                    <input type="Gênero" id="txtGenero" name="Gênero" required />
+                    <label for="Gênero">Email:</label>
+                    <input type="Gênero" id="Gênero" name="Gênero" placeholder="Ex:davi@gmail.com" required />
                 </div>
                 <div class="input-group">
-                    <label for="curso">Curso</label>
-                    <input type="Curso" id="txtCurso" name="Curso" required />
-                    <button type="submit">Adicionar endereço email</button>
+                    <label for="Gênero">Senha:</label>
+                    <input type="Gênero" id="Gênero" name="Gênero" placeholder="Ex: Davi@123" required />
+                </div>
+                <div class="input-group">
+                    <label for="curso">Confirmar Senha:</label>
+                    <input type="Curso" id="Curso" name="Curso" placeholder="Ex: Davi@123" required />
+                </div>
+                <div class="input-group">
+                    <button type="submit">Cadastrar</button>
                 </div>
             </form>
         </div>
-
-        <div class="row">
-            <img width="500px" src="img/mulher.png" alt="" />
+        <div>
+            <img  src="img/mulher.png" alt="">
         </div>
-
-        
-    </main>
+</main>
 </body>
 
 </html>
