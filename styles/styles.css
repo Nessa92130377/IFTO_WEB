@@ -81,12 +81,13 @@ header {
     align-items: center;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     text-decoration: none;
-    border-radius: 6px; 
+    border-radius: 40px; 
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
     width: 500px;
-    margin-left: 80ch;
-    margin-top: 10ch;
+    margin-left: 100CH;
+    margin-top: 10CH;
     padding: 0 10 10 10;
+    
 }
 
 h2 {
@@ -109,6 +110,8 @@ h2 {
     font-size: 20;
     font-weight: 300;
     margin-left: 2px;
+    border-radius: 15px;
+    
 }
 
 .input-group input {
@@ -117,7 +120,7 @@ h2 {
     width: 400px;
     padding: 10px;
     border: 1px solid #ddd;
-    border-radius: 8px;
+    border-radius: 15px;
     font-size: 14px;
     border: 0 none;
     outline: 0;
@@ -125,7 +128,7 @@ h2 {
 }
 
 button {
-    width: 50%;
+    width: 100%;
     padding: 10px;
     background-color: #007bff;
     border: none;
@@ -139,7 +142,7 @@ button {
     color: #FFF;
     padding: 10px 25px;
     border: none;
-    border-radius: 5px;
+    border-radius: 15px;
     cursor: pointer;
 
 }
@@ -292,8 +295,20 @@ H1 {
 
 
 #main-continer {
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
+    display: flex
+    align-items: center
+    justify-content: space-evenly
     flex-direction: row;
+}
+
+
+.img-cadastro {
+    margin-top: -45ch;
+    margin-left: 15ch;
+    
+}
+
+.img-login {
+    margin-top: -40ch;
+    margin-left: 15ch;
 }
