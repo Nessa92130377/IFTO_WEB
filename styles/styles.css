@@ -12,6 +12,10 @@ body {
 
 .menu a {
     color: white;
+<<<<<<< HEAD
+=======
+    font-family: fantasy;
+>>>>>>> 8420a7718adce3449c9bc8fac4816be4046d8898
     text-decoration: none;
     font-weight: 400;
     font-size: 20px;
@@ -84,11 +88,17 @@ header {
     border-radius: 40px; 
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
     width: 500px;
+<<<<<<< HEAD
     margin-left: 100CH;
     margin-top: 10CH;
     padding: 0 10 10 10;
     
+=======
+    margin-left: 95ch;
+    margin-top: 10ch;
+>>>>>>> 8420a7718adce3449c9bc8fac4816be4046d8898
 }
+
 
 h2 {
     color: #FFF;
@@ -103,6 +113,7 @@ h2 {
 }
 
 .input-group label {
+    font-family: fantasy;
     display: block;
     font-size: 14px;
     margin-bottom: 5px;
@@ -110,8 +121,11 @@ h2 {
     font-size: 20;
     font-weight: 300;
     margin-left: 2px;
+<<<<<<< HEAD
     border-radius: 15px;
     
+=======
+>>>>>>> 8420a7718adce3449c9bc8fac4816be4046d8898
 }
 
 .input-group input {
@@ -120,7 +134,11 @@ h2 {
     width: 400px;
     padding: 10px;
     border: 1px solid #ddd;
+<<<<<<< HEAD
     border-radius: 15px;
+=======
+    border-radius: 8px;
+>>>>>>> 8420a7718adce3449c9bc8fac4816be4046d8898
     font-size: 14px;
     border: 0 none;
     outline: 0;
@@ -128,7 +146,13 @@ h2 {
 }
 
 button {
+<<<<<<< HEAD
     width: 100%;
+=======
+
+    font-family: fantasy;
+    width: 50%;
+>>>>>>> 8420a7718adce3449c9bc8fac4816be4046d8898
     padding: 10px;
     background-color: #007bff;
     border: none;
@@ -138,12 +162,23 @@ button {
     cursor: pointer;
     font-weight: 300;
     margin-top: 45px;
+<<<<<<< HEAD
     background-color: #4CAF50;
     color: #FFF;
     padding: 10px 25px;
     border: none;
     border-radius: 15px;
     cursor: pointer;
+=======
+    margin-left: 25%;
+
+        background-color: #4CAF50;
+        color: #FFF;
+        padding: 10px 25px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+>>>>>>> 8420a7718adce3449c9bc8fac4816be4046d8898
 
 }
 
@@ -188,6 +223,10 @@ button:hover {
 }
 
 .login-container h2 {
+<<<<<<< HEAD
+=======
+    font-family: fantasy;
+>>>>>>> 8420a7718adce3449c9bc8fac4816be4046d8898
     color: white;
     margin-bottom: 20px;
     font-size: 50px;
@@ -210,6 +249,10 @@ button:hover {
     position: absolute;
     top: 20%;
     left: 15%;
+<<<<<<< HEAD
+=======
+
+>>>>>>> 8420a7718adce3449c9bc8fac4816be4046d8898
     background-color: #007bff;
     display: flex;
     align-items: center;
@@ -293,6 +336,18 @@ H1 {
     align-items: center;
 }
 
+<<<<<<< HEAD
+=======
+
+.img-subtitulo {
+    background-color: #043d7a;
+    color: white;
+    width: 500px;
+    height: 25px;
+
+}
+
+>>>>>>> 8420a7718adce3449c9bc8fac4816be4046d8898
 
 #main-continer {
     display: flex
@@ -300,6 +355,7 @@ H1 {
     justify-content: space-evenly
     flex-direction: row;
 }
+<<<<<<< HEAD
 
 
 .img-cadastro {
@@ -312,3 +368,5 @@ H1 {
     margin-top: -40ch;
     margin-left: 15ch;
 }
+=======
+>>>>>>> 8420a7718adce3449c9bc8fac4816be4046d8898
