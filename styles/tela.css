@@ -1,0 +1,182 @@
+/* styles.css */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #1e1e1e;
+    color: #ffffff;
+}
+
+/* Cabeçalho */
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #333;
+    padding: 10px 20px;
+}
+
+.logo img {
+    max-width: 100%;
+    border-radius: 5px;
+}
+
+.menu-right {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 15px;
+    left: 50;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 1rem;
+    padding: 10px;
+    transition: color 0.3s;
+}
+
+.menu a:hover {
+    color: #007bff;
+}
+
+#divBusca {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    background-color: #ffffff;
+    padding: 1px;
+    border-radius: 10px;
+}
+
+#txtBusca {
+    border: none;
+    outline: none;
+    padding: 5px;
+    font-size: 1rem;
+    border-radius: 5px;
+}
+
+#btnBusca {
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
+
+.user-icon img {
+    width: 25px;
+    height: 20px;
+    cursor: pointer;
+}
+
+/* Título */
+.title-section {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.title-section .line {
+    width: 1000px;
+    height: 5px;
+    background-color: #ffffff;
+    margin: 10px auto;
+}
+
+.title-section h1 {
+    font-size: 2.5rem;
+    letter-spacing: 2px;
+    color: #ffffff;
+    margin: 0;
+}
+
+/* Layout principal */
+.container {
+    width: 90%;
+    margin: auto;
+    padding: 20px;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+/* Divs */
+.box {
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #333333;
+}
+
+/* Imagens */
+.image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.large-image {
+    flex: 3;
+    height: 400px;
+}
+
+.medium-image {
+    flex: 2;
+    height: 350px;
+}
+
+/* Textos */
+.text {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: justify;
+    color: #ffffff;
+    padding: 15px;
+}
+
+.large-text {
+    flex: 3;
+    height: 400px;
+}
+
+.medium-text {
+    flex: 2;
+    height: 350px;
+}
+
+.small-text {
+    flex: 1;
+    height: 200px;
+}
+
+/* Títulos */
+.title {
+    background-color: #007bff;
+    color: #ffffff;
+    padding: 10px;
+    font-size: 1.2rem;
+    text-align: center;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+.text p {
+    margin: 0;
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+    .row {
+        flex-direction: column;
+    }
+
+    .large-image,
+    .medium-image,
+    .large-text,
+    .medium-text,
+    .small-text {
+        height: auto;
+    }
+}

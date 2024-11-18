@@ -213,7 +213,7 @@ button:hover {
     justify-content: center;
     width: 600px;
     height: 600px
-
+}
 
 .fundo {
     position: absolute;
@@ -234,7 +234,6 @@ button:hover {
     font-weight: bold;
     font-size: 20px;
     margin: 18px;
-
 }
 
 #CURSOS {
