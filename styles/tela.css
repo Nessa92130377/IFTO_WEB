@@ -118,7 +118,7 @@ header {
     background-color: #fff;
     position: absolute;
     top: 23%; /* Inicia a linha no eixo Y após a primeira linha horizontal */
-    bottom: 05%; /* Faz a linha terminar abaixo, conectando a segunda linha */
+    bottom: 0.5%; /* Faz a linha terminar abaixo, conectando a segunda linha */
     left: 50%;  /* Posiciona a linha vertical no meio da tela */
     transform: translateX(-50%);  /* Ajuste para centralizar perfeitamente */
 }
@@ -175,7 +175,7 @@ header {
     border-radius: 8px;
 }
 .box-image-2{
-    width: 588px;
+    width: 58px;
     height: 250px;
     background-color: #444;
     border-radius: 8px;
