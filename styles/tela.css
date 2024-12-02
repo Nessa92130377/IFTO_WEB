@@ -16,8 +16,6 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background-color: #333;
-    padding: 10px 20px;
 }
 
 .logo img {
@@ -33,39 +31,55 @@ header {
 }
 
 .menu a {
+    color: white;
     text-decoration: none;
-    color: #ffffff;
-    font-size: 1rem;
-    padding: 10px;
-    transition: color 0.3s;
+    font-weight: 400;
+    font-size: 20px;
+    margin: 18px;
+
+}
+header {
+    background-color: #2B2A29;
+
+    a:hover {
+        color: #4c8acc;
+        transition: 0.3s all;
+    }
 }
 
 .menu a:hover {
     color: #007bff;
 }
 
-#divBusca {
-    display: flex;
-    align-items: center;
-    gap: 20px;
-    background-color: #ffffff;
-    padding: 1px;
-    border-radius: 10px;
-}
-
 #txtBusca {
-    border: none;
-    outline: none;
-    padding: 5px;
-    font-size: 1rem;
-    border-radius: 5px;
-    width: 200px; /* Largura aumentada */
+    float: left;
+    background-color: white;
+    margin: 10px;
+    padding-left: 10PX;
+    align-items: center;
+    font-size: 15px;
+    border-radius: 40px;
+    height: 25px;
+    width: 260px;
+    box-shadow: 0 0 0 0;
+    border: 0 none;
+    outline: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 #btnBusca {
-    width: 20px;
-    height: 20px;
-    cursor: pointer;
+    width: 30px;
+    margin-right: 20px;
+
+}
+
+
+.box {
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    border-radius: 4ch;
+    align-items: center;
 }
 
 .user-icon img {
