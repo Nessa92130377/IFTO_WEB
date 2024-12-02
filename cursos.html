@@ -19,11 +19,11 @@
                 <a href="#SERVIDORES">SERVIDORES</a>
             </nav>
             <div id="divBusca">
-                <input type="text" id="txtBusca" placeholder="Buscar...">
-                <img src="img/lupa.png" id="btnBusca" alt="Buscar">
+                <input type="text" id="txtBusca" placeholder="Buscar..." aria-label="Campo de busca">
+                <img src="img/lupa.png" id="btnBusca" alt="Buscar" aria-label="Botão de busca">
             </div>
             <div class="user-icon">
-                <img src="img/usuario.png" id="btnUser" alt="Usuário">
+                <img src="img/usuario.png" id="btnUser" alt="Usuário" aria-label="Ícone do usuário">
             </div>
         </div>
     </header>
@@ -39,12 +39,12 @@
     <main class="container">
         <!-- Coluna esquerda -->
         <div class="column-left">
-            <!-- Primeiro post - ajustado para ter título abaixo da imagem -->
+            <!-- Primeiro post -->
             <div class="post-horizontal">
                 <div class="box-image"></div>
-                <div class="box-blue">Título 1</div> <!-- Título abaixo da imagem -->
                 <div class="box-text">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus lacinia dui a erat dictum, sit amet cursus odio convallis. Curabitur euismod augue eu dolor suscipit, eu cursus libero faucibus.</p>
+                    <div class="box-blue">Título 1</div> <!-- Título acima do texto -->
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus lacinia dui a erat dictum...</p>
                 </div>
             </div>
             <div class="separator"></div>
