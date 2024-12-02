@@ -26,3 +26,16 @@ function isPasswordValid() {
 function validateEmail(email) {
     return /\S+@\S+\.\S+/.test(email);
 }
+
+
+function cadastro() {
+    window.location.href = "cadastrar.html"
+}
+
+function loginuser() {
+    window.location.href = "login.html"
+}
+
+function login() {
+    window.location.href = "index.html"
+}
