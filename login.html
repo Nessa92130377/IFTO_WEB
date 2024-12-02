@@ -1,4 +1,3 @@
->
 <!DOCTYPE html>
 <html lang="en">
 
@@ -6,7 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles/styles.css">
-    <title>Login IFTO</title>
+    <script src="login.js"></script>
+    <title>login IFTO</title>
 </head>
 
 <body>
@@ -18,97 +18,48 @@
             <div class="menu">
                 <a href="#">AMBIENTES</a>
                 <a href="#">CURSOS</a>
-                <a href="#">SERVIDORES</a>
+                 <a href="#">SERVIDORES</a>
             </div>
             <div id="divBusca">
                 <input type="text" id="txtBusca" placeholder="Buscar..." />
             </div>
-            <img src="img/lupa.png" id="btnBusca" alt="Buscar" />
+            <div>
+                <img src="img/lupa.png" id="btnBusca" alt="Buscar" />
+            </div>
         </div>
     </header>
+
     <main id="main-container">
         <div class="login-container">
 
             <h2>Login</h2>
 
-            <form action="#" method="post">
+            <form action="#" method="post" class="form-login">
                 <div class="input-group">
-                    <label for="username">Email</label>
-                    <input type="text" id="txtUsuario" name="Email" placeholder="Ex: edinalva@gmail.com" required />
+                    <div class="input-group">
+                        <label for="Gênero">Email:</label>
+                        <input type="email" id="email" name="email" onchange="validityFields()" placeholder="seuemail@gmail.com" required />
+                    </div>
+                    <div class="input-group">
+                        <label for="Gênero">Senha:</label>
+                        <input type="password" id="password" name="password" onchange="validityFields()" placeholder ="sua senha..."  />
+                    </div>
                 </div>
-                <div class="input-group">
-                    <label for="Gênero">Senha</label>
-                    <input type="Senha" id="txtGenero" name="Senha" placeholder="Ex: **********" required />
-                </div>
-                <div class="input-group">
-                    <button type="submit">Entrar</button>
-                </div>
-            </form>
-        </div>
-
-        <div class="img-login">
-    
-            <img  src="img/mulher.png" alt="" />
-        </div>
-
-        
-<<<<<<< HEAD
-=======
-    
-    <header>
-        <div class="logo">
-            <img width="75px" src="img/OIP-removebg-preview.png" alt=""/>
-        </div>
-        <div class="menu-righ">
-            <div class="menu">
-                <a href="#">AMBIENTES</a>
-                <a href="#">CURSOS</a>
-                <a href="#">SERVIDORES</a>
-            </div>
-            <div id="divBusca">
-                <input type="text" id="txtBusca" placeholder="Buscar..." />
-            </div>
-            <img src="img/lupa.png" id="btnBusca" alt="Buscar" />
-            </div>
-        </div>
-        </header>
-        <main>
-
-            <div class="row">
-                <img   width="500px" height="500px" src="img/mulher_fundo.png" alt=""/>
-            </div>
-
-        <div class="login-container">
-            <h2>login</h2>
-
-            <form action="#" method="post">
-    
-                <div class="input-group">
-                    <label for="Gênero">Email:</label>
-                    <input type="Gênero" id="Gênero" name="Gênero" placeholder="Ex:davi@gmail.com" required/>
-                </div>
-                <div class="input-group">
-                    <label for="Gênero">Senha:</label>
-                    <input type="Gênero" id="Gênero" name="Gênero" placeholder="Ex: Davi@123" required/>
-                </div>
-                <div class="input-group">
-                    <label for="curso">Confirmar Senha:</label>
-                    <input type="Curso" id="Curso" name="Curso" placeholder="Ex: Davi@123" required/>
-                </div>
-                <button class="button-esqueceu"> Esqueceu a senha..</button>
-                <div class="input-group">
-                <button type="submit">Entrar</button>
+                <div class="reset-senha">
+                    <button id="recorver-password-button" disabled="true"  >Esqueceu a senha?</button>
                 </div>
                 
+                <div class="button-login">
+                    <button  type="submit" id="login-button" disabled="true" >Entrar</button>
+                </div>
+                <div class="button-cadastro-login">
+                    <h3>Ainda não te conta? </h3>
+                    <button  type="submit">Cadastrar</button>
+                </div>
             </form>
-
-            <div class="row">
-                <img   width="500px" height="500px" src="img/mulher_fundo.png" alt=""/>
-            </div>
         </div>
-
->>>>>>> 8420a7718adce3449c9bc8fac4816be4046d8898
-    </main>
+    
+</main>
 </body>
 
 </html>
