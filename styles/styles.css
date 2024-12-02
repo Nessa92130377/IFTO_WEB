@@ -83,9 +83,26 @@ header {
     text-decoration: none;
     border-radius: 6px; 
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
-    width: 500px;
-    margin-left: 80ch;
-    margin-top: 10ch;
+    width: 30%;
+    height: 450px;
+    margin-left: 50ch;
+    margin-top: 5ch;
+    padding: 0 10 10 10;
+}
+
+.login-container-cadastro {
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-decoration: none;
+    border-radius: 6px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    width: 30%;
+    height: 500px;
+    margin-left: 50ch;
+    margin-top: 3ch;
     padding: 0 10 10 10;
 }
 
@@ -98,56 +115,135 @@ h2 {
 
 
 .input-group {
-    margin-bottom: 15px;
+    margin: ;
+    display: flex;
+    align-items: center
+    justify-content: center;
+    flex-direction: column;
+
 }
 
 .input-group label {
-    display: block;
     font-size: 14px;
-    margin-bottom: 5px;
     color: white;
     font-size: 20;
+    padding-bottom: 5px;
     font-weight: 300;
-    margin-left: 2px;
+    margin-top: 20px;
 }
 
 .input-group input {
     
     align-items: center;
-    width: 400px;
+    width: 300px;
     padding: 10px;
     border: 1px solid #ddd;
-    border-radius: 8px;
+    border-radius: 5px;
     font-size: 14px;
     border: 0 none;
     outline: 0;
 
 }
 
-button {
-    width: 50%;
-    padding: 10px;
-    background-color: #007bff;
-    border: none;
-    border-radius: 15px;
-    color: #fff;
-    font-size: 20px;
-    cursor: pointer;
-    font-weight: 300;
-    margin-top: 45px;
-    background-color: #4CAF50;
-    color: #FFF;
-    padding: 10px 25px;
-    border: none;
+.input-group input::placeholder {
+    font-size: 13px;
+}
+
+
+.button-login button {
+    width: 300px;
+    height: 35px;
+    color: white;
     border-radius: 5px;
+    border: none;
+    font-size: 15px;
+    font-weight: 700;
+    background-color: blue;
     cursor: pointer;
+    outline:none;
+    transition: 0.5s all;
+    margin-bottom: 8px;
 
 }
 
-button:hover {
-    background-color: rgb(7, 158, 7);
-    transition: 0.2s all;
+.button-cadastro button {
+    width: 320px;
+    height: 35px;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    font-size: 15px;
+    font-weight: 700;
+    background-color: blue;
+    cursor: pointer;
+    outline:none;
+    transition: 0.5s all;
+    margin-top: 25px;
+
 }
+
+.button-cadastro-login {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: end;
+    margin-top: px;
+}
+
+.button-cadastro-login h3 {
+    font-size: 12px;
+    color: white;
+    font-weight: 100;
+    margin-bottom: 15px;
+
+}
+
+.button-cadastro-login button {
+    width: 80px;
+    font-size: 10px;
+    color: white;
+    background-color: transparent;
+    border-color: white;
+    background-color: #363636;
+    border: transparent;
+    padding: 5px;
+    margin-left: 10px;
+    outline: none;
+    transition: 0.5s all;
+    
+}
+
+.button-cadastro-login button:hover {
+    background-color: #fda247;
+}
+
+.form-login a {
+    font-size: 13px;
+    color: white;
+    margin-top: 20px;
+    margin-bottom: 15px;
+    margin-left: 25ch;
+}
+
+button [:disabled] {
+    opacity: 0.7;
+}
+
+.button-cadastro-cadastro button {
+    width: 320px;
+    height: 35px;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    font-size: 15px;
+    font-weight: 700;
+    background-color:#494848;
+    cursor: pointer;
+    outline:none;
+    margin-top: 25px
+}
+
+
 
 .forgot-password {
     text-align: center;
@@ -173,24 +269,29 @@ button:hover {
     flex-direction: column;
 }
 
-#login-container {
-    border-radius: 5ch;
 
-
-
-}
 
 .forgot-password a:hover {
     text-decoration: underline;
 }
 
 .login-container h2 {
-    color: white;
+    color: white
     margin-bottom: 20px;
     font-size: 50px;
     text-align: center;
     font-weight: 50;
 }
+
+
+.login-container-cadastro h2 {
+    color: white
+    margin-bottom: 20px;
+    font-size: 50px;
+    text-align: center;
+    font-weight: 50;
+}
+
 
 .input-box {
     display: flex;
@@ -198,10 +299,14 @@ button:hover {
     flex-direction: column;
 }
 
-#login-container {
-    border-radius: 5ch;
+.reset-senha button {
+    background-color: transparent;
+    border: none;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    color: white;
+    cursor: pointer;
 }
-
 
 .row {
     position: absolute;
@@ -277,22 +382,18 @@ H1 {
     justify-content: center;
 }
 
-.main-left {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.main-rigth {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-
 #main-continer {
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: center;
     flex-direction: row;
 }
+
+.form-login {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+

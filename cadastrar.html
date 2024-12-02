@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles/styles.css">
-    <title>login IFTO</title>
+    <title>Cadastro IFTO</title>
 </head>
 
 <body>
@@ -29,36 +29,32 @@
     </header>
 
     <main id="main-container">
-        <div class="login-container">
+        <div class="login-container-cadastro">
 
-            <h2>CADASTRAR</h2>
+            <h2>Cadastro</h2>
 
-            <form action="#" method="post">
+            <form action="#" method="post" class="form-login">
                 <div class="input-group">
-
-                    <label for="username">Nome Completo:</label>
-                    <input type="text" id="Usúario" name="Nome Completo" placeholder="Ex: Davi Pinheiro Sieg..."
-                        required />
+                    <div class="input-group">
+                        <label for="Gênero">Nome:</label>
+                        <input type="text" id="nome" name="nome" placeholder="Seu nome....." required />
+                    </div>
+                    <div class="input-group">
+                        <label for="Gênero">Email:</label>
+                        <input type="email" id="email" name="email" placeholder="seuemail@gmail.com" required />
+                    </div>
+                    <div class="input-group">
+                        <label for="Gênero">Senha:</label>
+                        <input type="password" id="senha" name="senha" placeholder="sua senha..." required />
+                    </div>
                 </div>
-                <div class="input-group">
-                    <label for="Gênero">Email:</label>
-                    <input type="Gênero" id="Gênero" name="Gênero" placeholder="Ex:davi@gmail.com" required />
+                <div class="button-cadastro">
+                    <button  type="submit">Cadastrar</button>
                 </div>
-                <div class="input-group">
-                    <label for="Gênero">Senha:</label>
-                    <input type="Gênero" id="Gênero" name="Gênero" placeholder="Ex: Davi@123" required />
-                </div>
-                <div class="input-group">
-                    <label for="curso">Confirmar Senha:</label>
-                    <input type="Curso" id="Curso" name="Curso" placeholder="Ex: Davi@123" required />
-                </div>
-                <div class="input-group">
-                    <button type="submit">Cadastrar</button>
+                <div class="button-cadastro-cadastro">
+                    <button  type="submit">Login</button>
                 </div>
             </form>
-        </div>
-        <div>
-            <img  src="img/mulher.png" alt="">
         </div>
 </main>
 </body>
