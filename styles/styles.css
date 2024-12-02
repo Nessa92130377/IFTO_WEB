@@ -100,8 +100,8 @@ header {
     border-radius: 6px; 
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
     width: 30%;
-    height: 500px;
-    margin-left: 50ch;
+    height: 550px;
+    margin-left: 60ch;
     margin-top: 3ch;
     padding: 0 10 10 10;
 }
@@ -113,6 +113,11 @@ h2 {
     text-align: center;
 }
 
+.linha-horizontal {
+    width: 320px;
+    border-bottom: 1px solid #ffffff;
+    margin-top: 20px;
+}
 
 .input-group {
     margin: ;
@@ -178,8 +183,12 @@ h2 {
     cursor: pointer;
     outline:none;
     transition: 0.5s all;
-    margin-top: 25px;
+    margin-top: 60px;
 
+}
+
+.button-cadastro button:hover {
+    background-color: #e4892e;
 }
 
 .button-cadastro-login {
@@ -240,7 +249,7 @@ button [:disabled] {
     background-color:#494848;
     cursor: pointer;
     outline:none;
-    margin-top: 25px
+    margin-top: 15px
 }
 
 
