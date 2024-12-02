@@ -114,13 +114,23 @@ header {
 
 /* Linha vertical conectando a horizontal */
 .line-vertical {
-    width: 2px;  /* Aumenta a espessura da linha vertical */
+    width: 2px;  /* Espessura da linha vertical */
     background-color: #fff;
-    position: absolute;
-    top: 23%; /* Inicia a linha no eixo Y após a primeira linha horizontal */
-    bottom: 0.5%; /* Faz a linha terminar abaixo, conectando a segunda linha */
-    left: 50%;  /* Posiciona a linha vertical no meio da tela */
-    transform: translateX(-50%);  /* Ajuste para centralizar perfeitamente */
+    position: absolute; /* Permite o posicionamento personalizado */
+    top: 0; /* Inicia no topo da tela */
+    height: 50%; /* Ocupa metade da altura da tela */
+    left: 50%; /* Centraliza horizontalmente */
+    transform: translateX(-50%); /* Ajuste fino para centralização */
+}
+
+.line-vertical-2 {
+    width: 2px;  /* Espessura da linha vertical */
+    background-color: #fff;
+    position: absolute; /* Permite o posicionamento personalizado */
+    top: 50%; /* Inicia do meio da tela */
+    height: 50%; /* Ocupa a segunda metade da tela */
+    left: 50%; /* Centraliza horizontalmente */
+    transform: translateX(-50%); /* Ajuste fino para centralização */
 }
 
 /* Layout principal */
