@@ -188,7 +188,7 @@ h2 {
 }
 
 .button-cadastro button:hover {
-    background-color: #e4892e;
+    background-color: #1EA026;
 }
 
 .button-cadastro-login {
@@ -406,3 +406,61 @@ H1 {
     
 }
 
+
+.main-index {
+    background: url("/img/1.png") no-repeat ;
+    height: 1000px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.div-main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: 120vh;
+    margin-bottom: 10vh;
+    border-radius: 16px;
+    box-shadow: 8px 8px 8px 8px rgba(0, 0, 0, 0.5);
+    width: 500px;
+    height: 500px;
+
+}
+
+.text-main {
+    display: flex;
+    align-items: center;
+    justify-content: ;
+    flex-direction: column;
+    padding: 0;
+}
+
+.text-main h1 {
+    font-size: 60px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 200;
+    margin: 0;
+    margin-bottom: 20px;
+}
+
+.text-main button {
+    width: 100px;
+    height: 35px;
+    border-radius: 5px;
+    border: 1px solid white;
+    background-color: transparent;
+    color: white;
+    margin-top: 20px;
+    transition: 0.5s ;
+    font-weight: 600;
+}
+
+.text-main button:hover {
+    background-color: #1EA026;
+    border: none;
+    color: black;
+
+}
