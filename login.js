@@ -39,3 +39,7 @@ function loginuser() {
 function login() {
     window.location.href = "index.html"
 }
+
+function loginindex() {
+    window.location.href = "cursos.html"
+}

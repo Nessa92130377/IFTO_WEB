@@ -423,8 +423,8 @@ H1 {
     flex-direction: column;
     margin-left: 120vh;
     margin-bottom: 10vh;
-    border-radius: 0 0 16px 0;
-    box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.5);
+    border-radius: 16px;
+    box-shadow: 8px 8px 8px 8px rgba(0, 0, 0, 0.5);
     width: 500px;
     height: 500px;
 
